@@ -27,7 +27,7 @@ const Nav = () => {
       >
          <div className='flex justify-between items-center'>
             <div className='flex justify-between items-center md:w-auto w-full p-6 '>
-               <img className='h-10 w-10' src='/assets/shared/logo.svg' alt='logo' />
+               <img className='h-10 w-10' src='./assets/shared/logo.svg' alt='logo' />
                <AiOutlineMenu
                   className='fill-white h-9 w-9 md:hidden'
                   onClick={() => openAndClose()}
