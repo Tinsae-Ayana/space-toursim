@@ -1,5 +1,5 @@
 export const DestinationLoader = async (key) => {
-   const response = await fetch("/space-toursim//src/assets/data.json");
+   const response = await fetch("/space-toursim/data.json");
    const rawdata = await response.text();
    console.log(rawdata);
    const data = JSON.parse(rawdata);
