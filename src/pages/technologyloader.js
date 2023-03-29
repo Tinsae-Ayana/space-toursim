@@ -1,5 +1,5 @@
 export const technologyLoader = async (key) => {
-   const response = await fetch("../src/assets/data.json");
+   const response = await fetch("/space-toursim//src/assets/data.json");
    const rawdata = await response.text();
 
    const data = JSON.parse(rawdata);
