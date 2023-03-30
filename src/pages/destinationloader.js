@@ -1,5 +1,7 @@
 export const DestinationLoader = async (key) => {
-   const response = await fetch("/space-toursim/data.json");
+   const response = await fetch(
+      "https://raw.githubusercontent.com/Tinsae-Ayana/space-toursim/gh-pages/assets/data.json"
+   );
    const rawdata = await response.text();
    console.log(rawdata);
    const data = JSON.parse(rawdata);
